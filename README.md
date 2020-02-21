@@ -28,6 +28,7 @@ all requests to this bot should begin with 127.0.0.1/ <br/>
 ### /keys/invalidate ###
 
 invalidates api key and informs owner in telegram <br/>
+useful when an api call fails due to key expiry
 parameters:
 - name
 <br/>
