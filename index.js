@@ -30,5 +30,5 @@ app.listen(port, () => {
     console.log(`listening on port ${port}`);
 });
 
-sendMessage("bot has restarted!", process.env.OWNER_CHAT_ID);
+sendMessage("bot restarted!", process.env.OWNER_CHAT_ID);
 
